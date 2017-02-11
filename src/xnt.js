@@ -6,7 +6,7 @@ const xntConstants = {
 };
 
 const binaryToHex = function(binary) {
-	return hexConstants[binary];
+	return xntConstants[binary];
 };
 
 const mainExport = {

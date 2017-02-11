@@ -4,9 +4,9 @@
 	else if(typeof define === 'function' && define.amd)
 		define([], factory);
 	else if(typeof exports === 'object')
-		exports["hex"] = factory();
+		exports["xnt"] = factory();
 	else
-		root["hex"] = factory();
+		root["xnt"] = factory();
 })(this, function() {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -59,19 +59,19 @@ return /******/ (function(modules) { // webpackBootstrap
 	Object.defineProperty(exports, "__esModule", {
 		value: true
 	});
-	var hexConstants = {
-		"00": "[hex-empty]",
-		"01": "[hex-half-left]",
-		"10": "[hex-half-right]",
-		"11": "[hex-full]"
+	var xntConstants = {
+		"00": "[xnt-empty]",
+		"01": "[xnt-half-left]",
+		"10": "[xnt-half-right]",
+		"11": "[xnt-full]"
 	};
 	
 	var binaryToHex = function binaryToHex(binary) {
-		return hexConstants[binary];
+		return xntConstants[binary];
 	};
 	
 	var mainExport = {
-		all: hexConstants,
+		all: xntConstants,
 		binaryToHex: binaryToHex
 	};
 	
@@ -83,4 +83,4 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ ])
 });
 ;
-//# sourceMappingURL=hex.umd.js.map
+//# sourceMappingURL=xnt.umd.js.map
