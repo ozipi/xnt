@@ -1,6 +1,6 @@
 {
   "name": "xnt",
-  "version": "2.0.0",
+  "version": "0.0.0-development",
   "description": "hex notation tools",
   "main": "dist/xnt.js",
   "scripts": {
@@ -13,11 +13,12 @@
     "watch:test": "mocha --watch",
     "report-coverage": "cat ./coverage/lcov.info | codecov",
     "lint": "eslint src/xnt.js",
-    "validate": "npm-run-all --parallel lint test build"
+    "validate": "npm-run-all --parallel lint test build",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ozipi/xnt.git"
+    "url": "https://github.com/ozipi/xnt.git"
   },
   "keywords": [
     "xnt",
@@ -48,7 +49,8 @@
     "npm-run-all": "2.3.0",
     "nyc": "7.1.0",
     "rimraf": "2.5.4",
-    "webpack": "1.13.1"
+    "webpack": "1.13.1",
+    "semantic-release": "^6.3.2"
   },
   "nyc": {
     "check-coverage": true,
