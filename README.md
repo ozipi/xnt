@@ -26,3 +26,5 @@ so a full byte will be converted as follows
 usage:
 - var xnt = require('./xnt');
 xnt.binaryToHex("11");
+
+test 2
