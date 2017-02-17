@@ -1,6 +1,6 @@
 {
   "name": "xnt",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "hex notation tools",
   "main": "dist/xnt.js",
   "scripts": {
