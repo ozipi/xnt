@@ -1,7 +1,7 @@
 # hex
 hex notation related tools 
 
-The hex notation logic for representing binary values
+The hex notation logic for representing binary values into a visual representation for the hex language
 
 -- logic --
 
@@ -26,5 +26,3 @@ so a full byte will be converted as follows
 usage:
 - var xnt = require('./xnt');
 xnt.binaryToHex("11");
-
-test 2
